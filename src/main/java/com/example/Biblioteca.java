@@ -13,14 +13,22 @@ public class Biblioteca {
     public boolean adicionarLivro(Livro livro) {
         if(this.livros.size() < MAX_LIVROS)
         {
+            for(Livro l : this.livros){
+                if(l.getTitulo() == livro.getTitulo())
+                return false;
+            }
             this.livros.add(livro);
+        
             return true;
         }
         else
         {
             return false;
         }
+        
+        
     }
+
 
     public boolean removerLivro(String titulo) {
         for(Livro livroExiste : this.livros)
