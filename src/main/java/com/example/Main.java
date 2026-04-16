@@ -1,4 +1,4 @@
-package com.example;
+package src.main.java.com.example;
 
 public class Main {
     public static void main(String[] args) {

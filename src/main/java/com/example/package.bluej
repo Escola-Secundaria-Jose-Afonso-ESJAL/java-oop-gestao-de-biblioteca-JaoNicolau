@@ -1,12 +1,12 @@
 #BlueJ package file
-dependency1.from=Main
+dependency1.from=Biblioteca
 dependency1.to=Livro
 dependency1.type=UsesDependency
 dependency2.from=Main
-dependency2.to=Biblioteca
+dependency2.to=Livro
 dependency2.type=UsesDependency
-dependency3.from=Biblioteca
-dependency3.to=Livro
+dependency3.from=Main
+dependency3.to=Biblioteca
 dependency3.type=UsesDependency
 objectbench.height=183
 objectbench.width=1896
